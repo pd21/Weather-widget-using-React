@@ -46,7 +46,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        hello
+        hello world haha huhu
         <Titles />
         <Weather
           temp={this.state.temp}
