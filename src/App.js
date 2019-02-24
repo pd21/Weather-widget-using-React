@@ -13,9 +13,9 @@ class App extends Component {
     city:undefined,
     country:undefined,
     error:undefined,
+    c: 20,
+    b: 4,
     a: 2,
-    b: 3,
-    c: 10
   }
   getWeather = async(e) =>{
     e.preventDefault();
@@ -49,7 +49,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        hello
+        hello world haha huhu
         <Titles />
         <Weather
           temp={this.state.temp}
