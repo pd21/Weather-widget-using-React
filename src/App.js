@@ -15,7 +15,7 @@ class App extends Component {
     error:undefined,
     a: 2,
     b: 3,
-    c: 4
+    c: 10
   }
   getWeather = async(e) =>{
     e.preventDefault();
